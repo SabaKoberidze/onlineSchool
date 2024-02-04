@@ -84,7 +84,7 @@ article{
                    width: 100%;
                    height: 100%;
                    aspect-ratio: 1/1;
-                   border-radius: 4px 8px 8px 4px;
+                   border-radius: 0px 8px 8px 0px;
                 }
                 .title{
                     padding: 5% 0;
@@ -128,7 +128,7 @@ article{
                     left: 0.5%;
                     top: unset;
                     z-index: -1;
-                    width: 97.5%;
+                    width: 97%;
                     height: 60px;
                     transform-origin: bottom;
                     transform:  rotate3d(1, 0 ,0, 90deg);
