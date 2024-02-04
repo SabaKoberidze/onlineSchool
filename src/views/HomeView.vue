@@ -4,7 +4,11 @@
             <div class="subjectContainers" v-for="(subject, key) in subjects.subjects">
                 <div  class="subject" @click="pickSubject(key)">
                     <img :src="getImageUrl(key)">
-                    <p class="title">{{ subject.title }}</p>                          
+                    <p class="title">{{ subject.title }}</p>        
+                    <div class="leftSide"></div>                  
+                    <div class="rightSide"></div>
+                    <div class="bottomSide"></div>
+                    <div class="subjectBack"></div>
                 </div>
             </div>           
         </div>
@@ -37,23 +41,21 @@ article{
         max-width:100%;
         .subjectContainers{
             width: 400px;
-            height: 500px;
+            height: 500px;    
+            position: relative;       
             &:hover{   
                 .subject{
-                    box-shadow: 20px 0px 25px #000000a5;                
-                    transform: scale(1.02) rotate3d(0, 2 ,0, 30deg);
-                    border-right: 25px solid rgb(220, 219, 219);
-                    transform-style: preserve-3d;
-                    img{                    
-                        //object-fit: cover;
-                    }
-                    .title{
-                        letter-spacing: -1px;
+                    position: relative;                        
+                    transform: scale(1.02) rotate3d(1, -1 ,0, 30deg);                                    
+                    .subjectBack{
+                        box-shadow: 2px 2px 15px #000000a5;          
                     }
                 }       
                
             }
+          
             .subject{
+                transform-style: preserve-3d;    
                 user-select: none;
                 cursor: pointer;
                 border-radius: 4px;
@@ -61,15 +63,14 @@ article{
                 justify-content: start;
                 flex-direction: column;
                 align-items: center;     
-                gap: 10px;  
-                box-shadow: 0px 0px 15px #0000006f;       
+                gap: 10px;                
                 color: white;
                 transition: 400ms;
-                width: 400px;
-                height: 500px;
+                width: 100%;
+                height: 100%;
                 position: relative;
                 border-radius: 4px 8px 8px 4px;
-                overflow: hidden;
+                //overflow: hidden;
                 border-right: 0 solid white;
                 background: rgb(220, 219, 219);    
                 letter-spacing: 0px; 
@@ -101,6 +102,49 @@ article{
                     top: 5%;      
                     transition: 200ms;            
                 }   
+                .rightSide,.bottomSide,.leftSide{
+                    content: '';
+                    background-color: rgb(213, 210, 210);
+                    position: absolute;
+                    height: 95%;
+                    width: 60px;
+                    z-index: -1;
+                    right: 2.5%;
+                    top: 2.5%;
+                    transform-origin: right;
+                    transform:  rotate3d(0, 1 ,0, -90deg);
+                    transform-style: preserve-3d;
+                }
+                .leftSide{
+                    height: 100%;  
+                    transform-origin: left;
+                    left:0;
+                    top: 0;
+                    background-color: rgb(152, 152, 152);
+                    transform:  rotate3d(0, 1 ,0, 90deg);
+                }
+                .bottomSide{
+                    bottom: 2.5%;
+                    left: 0.5%;
+                    top: unset;
+                    z-index: -1;
+                    width: 97.5%;
+                    height: 60px;
+                    transform-origin: bottom;
+                    transform:  rotate3d(1, 0 ,0, 90deg);
+                }
+                .subjectBack{
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    background-color: grey;
+                    z-index: -1;
+                    transform-style: preserve-3d;
+                    transform: translateZ(-60px);
+                    border-radius: 0px 8px 8px 0px;
+                    box-shadow: 0px 0px 15px #0000004d;       
+                    transition: 200ms;
+                }
                 &::after{
                     z-index: 1;
                     content: "";
@@ -109,7 +153,8 @@ article{
                     width: 2.5%;
                     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(18, 18, 18, 0.486) 50%,  rgba(255, 255, 255, 0) 100%);
                     left: 1%;
-                }                   
+                    top: 0;
+                }    
             }
         }
        
