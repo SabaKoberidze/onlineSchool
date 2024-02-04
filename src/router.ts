@@ -1,10 +1,13 @@
-import { createRouter, createWebHistory} from 'vue-router'
+import { createRouter, createWebHashHistory} from 'vue-router'
 // import { logInState } from "./stores/auth";
 import Home from './views/HomeView.vue'
 import Subject from './views/SubjectView.vue'
 import Login from './views/LoginView.vue'
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
+  linkActiveClass: "active-link",
+  linkExactActiveClass: "exact-active-link",
+  // history: createWebHistory(),
   routes: [
     {
       path: '/',
