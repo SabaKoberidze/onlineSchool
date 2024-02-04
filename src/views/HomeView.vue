@@ -170,7 +170,7 @@ article{
                     position: absolute;
                     height: 100%;
                     width: 2.5%;
-                    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(18, 18, 18, 0.486) 50%,  rgba(255, 255, 255, 0) 100%);
+                    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(18, 18, 18, 0.25) 50%,  rgba(255, 255, 255, 0) 100%);
                     left: 1%;
                     top: 0;
                 }    

@@ -1,5 +1,6 @@
 <template>
     <article>
+        <p class="subjectName">{{subjects.subjects[curretSubject].title}}</p>
         <div class="subjectHeaders" v-for="(header, key, index) in subjects.subjects[curretSubject].headers"> 
             <div class="subjectHeaders__header" @click="selectHeader(index)">{{ key }}</div>
             <template  v-for="subHeader in header">
@@ -39,6 +40,17 @@ function selectHeader(index: number){
         height: calc(100vh - 70px);
         background-color: rgba(250, 163, 1, 0.296);
         width: 20%;
+        .subjectName{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            font-weight: 600;
+            padding-left: 2%;
+            height: 50px;
+            font-size: 25px;
+            width: 100%;
+            color: rgb(90, 90, 90);
+        }
         .subjectHeaders{
             width: 100%;
             cursor: pointer;
