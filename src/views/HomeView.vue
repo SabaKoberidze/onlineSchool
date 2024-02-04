@@ -39,9 +39,30 @@ article{
         gap: 40px;
         width: 100%;
         max-width:100%;
+        @media  (max-width: 600px) {
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
+        @media  (max-width: 520px) {
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        }
         .subjectContainers{
             width: 400px;
             height: 500px;    
+            @media  (max-width: 600px) {
+                align-self: center;
+                width: 200px;
+                height: 250px;    
+            }
+            @media  (max-width: 520px) {
+                align-self: center;
+                width: 160px;
+                height: 200px;    
+            }
+            @media  (max-width: 380px) {
+                align-self: center;
+                width: 240px;
+                height: 300px;    
+            }
             position: relative;       
             &:hover{   
                 .subject{
@@ -76,15 +97,13 @@ article{
                 letter-spacing: 0px; 
               
                
-                @media(max-width:600px) {
-                    width: calc(50vw - 5px);
-                } 
+                
                 img{
                   // width: auto;
                    width: 100%;
                    height: 100%;
                    aspect-ratio: 1/1;
-                   border-radius: 4px 8px 8px 4px;
+                   border-radius: 0px 8px 8px 0px;
                 }
                 .title{
                     padding: 5% 0;
@@ -128,7 +147,7 @@ article{
                     left: 0.5%;
                     top: unset;
                     z-index: -1;
-                    width: 97.5%;
+                    width: 97%;
                     height: 60px;
                     transform-origin: bottom;
                     transform:  rotate3d(1, 0 ,0, 90deg);
