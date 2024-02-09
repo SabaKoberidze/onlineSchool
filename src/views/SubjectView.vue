@@ -40,6 +40,7 @@ function selectHeader(index: number){
         height: calc(100vh - 70px);
         background-color: rgba(250, 163, 1, 0.296);
         width: 20%;
+        margin-top: 70px;
         .subjectName{
             display: flex;
             justify-content: start;
