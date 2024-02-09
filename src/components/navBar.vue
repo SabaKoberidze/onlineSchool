@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import router from '../router';
+import {subjectStore} from '../stores/subjects.js'
 defineProps<{ msg: string }>()
 //const count = ref(0)
+const subjects = subjectStore()
 function gotToHome():void {
     router.push('/')
 }
@@ -10,6 +12,7 @@ function gotToHome():void {
 <template>
     <nav>
         <h1 v-on:click="gotToHome()">{{msg}}</h1>
+        <input v-model="subjects.Search" class="search" placeholder="Search">
         <div class="navigation">
             <!-- <router-link to="/">Home</router-link> 
             <router-link to="/about">about</router-link>  -->
@@ -25,9 +28,9 @@ function gotToHome():void {
 nav{
     padding: 0 2%;
     z-index: 5;
-    background: #389ea4;
-    backdrop-filter: blur(1px);
-    position: sticky;
+    background: #20214586;
+    backdrop-filter: blur(5px);
+    position: fixed;
     top: 0;
     width: 100%;
     height: 70px;
@@ -41,6 +44,21 @@ nav{
     a{
         text-decoration: none;
         font-size: 18px;
+    }
+    .search{
+        outline: 0;
+        color: black;
+        text-align: center;
+        border-radius: 8px;
+        border: 0;
+        height: 40%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(255, 255, 255, 0.737);
+        &:active{
+            outline: 0;
+        }
     }
 
     .navigation{

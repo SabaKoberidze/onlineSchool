@@ -38,8 +38,9 @@ function selectHeader(index: number){
     article{
         max-width:100%;
         height: calc(100vh - 70px);
-        background-color: rgba(250, 163, 1, 0.296);
+        background-color: rgba(0, 0, 0, 0.157);
         width: 20%;
+        margin-top: 70px;
         .subjectName{
             display: flex;
             justify-content: start;
@@ -49,7 +50,7 @@ function selectHeader(index: number){
             height: 50px;
             font-size: 25px;
             width: 100%;
-            color: rgb(90, 90, 90);
+            color: rgb(53, 53, 53);
         }
         .subjectHeaders{
             width: 100%;
