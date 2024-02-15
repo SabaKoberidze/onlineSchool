@@ -1,0 +1,346 @@
+[
+    {
+        "lesson": "ვიკინგების ექსპედიცია",
+        "era": "Late 8th to late 11th century",
+        "questions": [
+            {
+                "question": "როგორი იყო ტრანსპორტის პირველი მეთოდი, რომელსაც ვიკინგები იყენებდნენ?",
+                "answers": [
+                    "A) ცხენი",
+                    "B) გრძელი გემები",
+                    "C) ფეხით გადაადგილდებოდნენ",
+                    "D) ეტლები"
+                ],
+                "correctAnswer": "B) გრძელი გემები",
+                "hints": {
+                    "hint1": "ვიკინგები ცნობილნი იყვნენ წყალზე მოგზაურობის უნარით.",
+                    "hint2": "ეს ტრანსპორტირების მეთოდი გამოირჩეოდა ყველანაირი წყლის ზედაპირზე.",
+                    "hint3": "ეს ტრანსპორტი იყო ვიწრო, გრძელი და გამორჩეული ფორმის, მშვილდზე გამოსახული დრაკონის თავით."
+                },
+                "DALL-E prompt": "Create an image of a Viking longship sailing on the ocean, with a dragon head on the bow and a row of shields along the side. The sea should be vast, showing the ship's ability to navigate open waters."
+            },
+            {
+                "question": "რა იყო ვიკინგების ექსპედიციების უმთავრესი მიზეზი?",
+                "answers": [
+                    "A) რელიგია",
+                    "B) ახალი სავაჭრო გზების ძიება",
+                    "C) მეცნიერული კვლევა",
+                    "D) დიპლომატიური მიზეზები"
+                ],
+                "correctAnswer": "B) ახალი სავაჭრო გზების ძიება",
+                "hints": {
+                    "hint1": "ვიკინგები თავიანთი ეკონომიკური შესაძლებლობების გაფართოებაზე ზრუნავდნენ.",
+                    "hint2": "მათ მიაღწიეს ბიზანტიის იმპერიამდე და აბასიანთა სახალიფომდე.",
+                    "hint3": "მათ ექსპედიციებს ხშირად სავაჭრო ცენტრებისა და პორტების დაარსება მოჰყვებოდა."
+                },
+                "DALL-E prompt": "Depict a bustling Viking trade port, with various goods like furs and silver being exchanged, Viking longships docked, and diverse people engaging in trade to represent the economic aspect of the Viking expeditions."
+            },
+            {
+                "question": "რომელი რეგიონიდან წარმოიშვნენ ვიკინგები?",
+                "answers": [
+                    "A) ბრიტანეთი",
+                    "B) სკანდინავია",
+                    "C) ხმელთაშუა ზღვა",
+                    "D) აღმოსავლეთ ევროპა"
+                ],
+                "correctAnswer": "B) სკანდინავია",
+                "hints": {
+                    "hint1": "ეს რეგიონი ცნობილია თავისი ფიორდებითა და ცივი კლიმატით (ფიორდი - ვიწრო ყურე, რომელიც ზღვის მთიან სანაპიროზე გვხვდება. წარმოქმნილია მყინვარების მოქმედების შედეგად. მისი კალთები კლდოვანი, მაღალი და ციცაბოა).",
+                    "hint2": "იგი მოიცავს ისეთ თანამედროვე ქვეყნებს, როგორიცაა ნორვეგია, შვედეთი და დანია.",
+                    "hint3": "ამ რეგიონის ხალხი ასევე ცნობილი იყო როგორც 'ნორსმენები' (Norsemen)."
+                },
+                "DALL-E prompt": "Visualize a typical Scandinavian landscape during the Viking era, featuring fjords, wooden houses, and rugged terrain, to highlight the origin of the Viking people."
+            },
+            {
+                "question": "რომელ მნიშვნელოვან ხელსაწყოს იყენებდნენ ვიკინგები ნავიგაციისთვის??",
+                "answers": [
+                    "A) კომპასი",
+                    "B) ასტროლაბი",
+                    "C) მზის ქვა",
+                    "D) ტელესკოპი"
+                ],
+                "correctAnswer": "C) მზის ქვა",
+                "hints": {
+                    "hint1": "ეს ობიექტი დაეხმარა ვიკინგებს ნავიგაციაში მოღრუბლულ ან ნისლიან პირობებში.",
+                    "hint2": "ეს იყო მინერალური კრისტალი, რომელსაც შეეძლო მზის პოზიციის ამოცნობა.",
+                    "hint3": "ეს ხელსაწყო ნახსენებია რამდენიმე ნორვეგიულ საგასა და შუა საუკუნეების ტექსტებში"
+                },
+                "DALL-E prompt": "Create an image of a Viking navigator on a longship using a sunstone to determine the position of the sun on an overcast day, with the ocean and cloudy sky in the background."
+            },
+            {
+                "question": "ქვემოთ ჩამოთვლილთაგან რომელი იყო ვიკინგების ექსპედიციების მნიშვნელოვანი მიღწევა?",
+                "answers": [
+                    "A) ვინლანდიის აღმოჩენა",
+                    "B) კომპასის გამოგონება",
+                    "C) რომის იმპერიის დაარსება",
+                    "D) ჩინეთის დიდი კედლის მშენებლობა"
+                ],
+                "correctAnswer": "A) ვინლანდიის აღმოჩენა",
+                "hints": {
+                    "hint1": "ეს მიღწევა გულისხმობდა ვიკინგების მიერ ახალი კონტინენტის მიღწევას.",
+                    "hint2": "ითვლება, რომ ის თანამედროვე ჩრდილოეთ ამერიკის ნაწილია..",
+                    "hint3": "ამ აღმოჩენას მიაწერენ ლეიფ ერიქსონს, ვიკინგების ცნობილ მკვლევარს."
+                },
+                "DALL-E prompt": "Depict a scene of Viking explorers, led by Leif Erikson, arriving at the shores of Vinland, with a dense forest in the background and a sense of new discovery, to visualize this significant Viking achievement."
+            }
+        ]
+    },
+    {
+        "lesson": "ჯვაროსნული ლაშქრობები",
+        "era": "მე-11 საუკუნის ბოლო - მე-13 საუკუნის ბოლო",
+        "questions": [
+            {
+                "question": "რომელი პაპის მოწოდებით დაიწყო პირველი ჯვაროსნული ლაშქრობა 1095 წელს?",
+                "answers": [
+                    "A) პაპი გრიგოლ VII",
+                    "B) პაპი ურბან II",
+                    "C) პაპი ალექსანდრე III",
+                    "D) პაპი ინოკენტი III"
+                ],
+                "correctAnswer": "B) პაპი ურბან II",
+                "hints": {
+                    "hint1": "ის მიზნად ისახავდა ბიზანტიის იმპერიისთვის სამხედრო დახმარების გაწევას თურქ-სელჩუკების წინააღმდეგ.",
+                    "hint2": "მისმა ცნობილმა გამოსვლამ კლერმონის საბჭოში პროვოცირება მოახდინა პირველი ჯვაროსნული ლაშქრობის დაწყებაზე.",
+                    "hint3": "ის იყო პაპი მე-11 საუკუნის ბოლოს."
+                },
+                "DALL-E prompt": "Create an image of Pope Urban II delivering a passionate speech at the Council of Clermont, with a crowd of knights and clergy in a medieval setting, depicting the moment the First Crusade was called."
+            },
+            {
+                "question": "რა იყო პირველი ჯვაროსნული ლაშქრობის მთავარი მიზანი?",
+                "answers": [
+                    "A) ეგვიპტის დაპყრობა",
+                    "B) სკანდინავიაში ქრისტიანობის გავრცელება.",
+                    "C) წმინდა მიწის გათავისუფლება მუსულმანური კონტროლისგან",
+                    "D) სავაჭრო გზების გაყვანა აზიასთან"
+                ],
+                "correctAnswer": "C) წმინდა მიწის გათავისუფლება მუსულმანური კონტროლისგან",
+                "hints": {
+                    "hint1": "სამიზნე იყო რეგიონი, რომელსაც ქრისტიანები, ებრაელები და მუსლიმები წმინდად თვლიდნენ.",
+                    "hint2": "იერუსალიმი იყო ამ ჯვაროსნული ლაშქრობის ცენტრალური სამიზნე",
+                    "hint3": "ის მოიცავდა დიდ მოგზაურობას აღმოსავლეთ ხმელთაშუა ზღვაში."
+                },
+                "DALL-E prompt": "Visualize a scene of Crusaders marching towards Jerusalem, with crosses on their armor and banners, set against a backdrop of the arid landscapes of the Eastern Mediterranean."
+            },
+            {
+                "question": "რომელი ქალაქი აიღეს ჯვაროსნებმა პირველი ჯვაროსნული ლაშქრობის ბოლოს?",
+                "answers": [
+                    "A) კონსტანტინოპოლი",
+                    "B) რომი",
+                    "C) იერუსალიმი",
+                    "D) ბაღდადი"
+                ],
+                "correctAnswer": "C) იერუსალიმი",
+                "hints": {
+                    "hint1": "ეს ქალაქი არის წმინდა ადგილი რამდენიმე ძირითადი რელიგიისთვის.",
+                    "hint2": "ის დაიპყრეს 1099 წელს, ხანგრძლივი ალყის შემდეგ.",
+                    "hint3": "მისმა დაპყრობამ გამოიწვია რამდენიმე ჯვაროსნული სახელმწიფოს ჩამოყალიბება."
+                },
+                "DALL-E prompt": "Depict the Crusaders entering a historical city with significant religious monuments, capturing it after a siege, to illustrate their major victory at the end of the First Crusade."
+            },
+            {
+                "question": "რა იყო ტამპლიერების როლი ჯვაროსნული ლაშქრობების დროს?",
+                "answers": [
+                    "A) სამეცნიერო კვლევა",
+                    "B) დიპლომატიური მოლაპარაკება",
+                    "C) მომლოცველთა და სამფლობელო ტერიტორიების დაცვა",
+                    "D) ხელოვნებისა და ლიტერატურის კონსერვაცია"
+                ],
+                "correctAnswer": "C) მომლოცველთა და სამფლობელო ტერიტორიების დაცვა",
+                "hints": {
+                    "hint1": "ეს ორდენი დაარსდა მე -12 საუკუნის დასაწყისში პირველი ჯვაროსნული ლაშქრობის შემდეგ.",
+                    "hint2": "ისინი ცნობილი იყვნენ თავიანთი გამორჩეული თეთრი მანტიებით წითელი ჯვრით.",
+                    "hint3": "ისინი გახდნენ ჯვაროსნული ლაშქრობების ერთ-ერთი ყველაზე მნიშვნელოვანი საბრძოლო ნაწილი."
+                },
+                "DALL-E prompt": "Create an image of Knights Templar in their distinctive armor, guarding pilgrims or defending a fortress in the Holy Land, to illustrate their role in the Crusades."
+            },
+            {
+                "question": "რა იყო ჯვაროსნული ლაშქრობების შედეგი?",
+                "answers": [
+                    "A) რომის იმპერიის დაცემა",
+                    "B) სავაჭრო და კულტურული ურთიერთობების გაძლიერება ევროპასა და ახლო აღმოსავლეთს შორის",
+                    "C) ყველა ქრისტიანული კონფესიის გაერთიანება",
+                    "D) ამერიკის აღმოჩენა"
+                ],
+                "correctAnswer": "B) სავაჭრო და კულტურული ურთიერთობების გაძლიერება ევროპასა და ახლო აღმოსავლეთს შორის",
+                "hints": {
+                    "hint1": "მიუხედავად იმისა, რომ სამხედრო კამპანიები იყო, მათ მნიშვნელოვანი ეკონომიკური გავლენა მოახდინეს.",
+                    "hint2": "ამან გამოიწვია ხმელთაშუა ზღვის ხელახალი გახსნა ვაჭრობისა და მოგზაურობისთვის.",
+                    "hint3": "შედეგად გაიზარდა ევროპული ექსპოზიცია აღმოსავლური საქონლისა და ცოდნის მიმართ."
+                },
+                "DALL-E prompt": "Visualize a medieval marketplace bustling with activity, showing European and Middle Eastern merchants exchanging goods like spices, silk, and manuscripts, to depict the increased trade and cultural exchanges post-Crusades."
+            }
+        ]
+    },
+    {
+        "lesson": "გოთიკური არქითექტურა",
+        "era": "High Middle Ages (12th to 13th century)",
+        "questions": [
+            {
+                "question": "რა არქიტექტურული თავისებურებები განასხვავებს გოთიკურ ტაძრებს ადრინდელი რომაული ეკლესიებისგან?",
+                "answers": [
+                    "A) გუმბათების გამოყენება",
+                    "B) წვეტიანი, მაღალი თაღები",
+                    "C) მარტივი გარე გაფორმება",
+                    "D) პატარა ფანჯრები"
+                ],
+                "correctAnswer": "B) წვეტიანი, მაღალი თაღები",
+                "hints": {
+                    "hint1": "გოთიკური არქიტექტურა წარმოიშვა რომაული არქიტექტურიდან.",
+                    "hint2": "ეს ტაძრები უფრო მაღალია და უფრო მეტი სინათლეა, ვიდრე რომაული.",
+                    "hint3": "მათ ხშირად აქვთ დიდი ვიტრაჟები."
+                },
+                "DALL-E prompt": "Visualize a Gothic cathedral showing its tall structure with pointed arches, ribbed vaults, flying buttresses, and large stained glass windows, to highlight the evolution from Romanesque architecture."
+            },
+            {
+                "question": "რომელი ტაძარი ითვლება ფრანგული გოთიკური არქიტექტურის განსახიერებად?",
+                "answers": [
+                    "A) პარიზის ღვთისმშობლის ტაძარი",
+                    "B) შარტრის ტაძარი",
+                    "C) მილანის ტაძარი",
+                    "D) კიოლნის ტაძარი"
+                ],
+                "correctAnswer": "A) პარიზის ღვთისმშობლის ტაძარი",
+                "hints": {
+                    "hint1": "ეს ტაძარი მდებარეობს საფრანგეთში.",
+                    "hint2": "მან მნიშვნელოვანი ხანძარი განიცადა 2019 წელს, რამაც მსოფლიოს ყურადღება მიიპყრო.",
+                    "hint3": "იგი ცნობილია თავისი მაღალი საყრდენებით და გარგოლებით.."
+                },
+                "DALL-E prompt": "Create an image of Notre-Dame de Paris highlighting its Gothic architectural features such as flying buttresses, gargoyles, and rose windows."
+            },
+            {
+                "question": "რა მიზანს ემსახურებოდნენ 'მფრინავი' საყრდენები გოთიკურ ტაძრებში?",
+                "answers": [
+                    "A) ესთეტიკური მიმზიდველობა",
+                    "B) დამატებითი ფართი სამლოცველოებისთვის",
+                    "C) უფრო მაღალი კედლებისა და უფრო დიდი ფანჯრების საყრდენი",
+                    "D) დამპყრობლებისგან დაცვა"
+                ],
+                "correctAnswer": "C) უფრო მაღალი კედლებისა და უფრო დიდი ფანჯრების საყრდენი",
+                "hints": {
+                    "hint1": "ეს სტრუქტურები სამშენებლო გამოწვევის ტექნიკური გადაწყვეტა იყო.",
+                    "hint2": "მათ უფლება მისცეს მშენებლებს აეგოთ უფრო მაღალი კედლები და, შესაბამისად, უფრო დიდი ფანჯრები",
+                    "hint3": "მათი გარეგნობა გოთიკური არქიტექტურის სიმბოლოდ იქცა."
+                },
+                "DALL-E prompt": "Show a Gothic cathedral with flying buttresses supporting tall walls and large stained glass windows, illustrating their functional and aesthetic role."
+            },
+            {
+                "question": "როგორ შეუწყო ხელი რკალისებური სარდაფები გამოყენებამ გოთიკურ კათედრალურ არქიტექტურას?",
+                "answers": [
+                    "A) უკეთეს აკუსტიკას უზრუნველყოფდნენ",
+                    "B) უფრო მაღალი ჭერისა და სახურავების აშენების უფლება მისცა.",
+                    "C) გააიაფა მშენებლობა.",
+                    "D)გამოიყენებოდა მხოლოდ დეკორატიული მიზნებისთვის."
+                ],
+                "correctAnswer": "B) უფრო მაღალი ჭერისა და სახურავების აშენების უფლება მისცა",
+                "hints": {
+                    "hint1": "რკალისებური სარდაფები იყო ევოლუცია არქიტექტურულ დიზაინში",
+                    "hint2": "ისინი უფრო ეფექტურად ანაწილებდნენ სახურავის წონას",
+                    "hint3": "წონის ეს განაწილება საშუალებას აძლევდა უფრო მაღალი და შთამბეჭდავი სტრუქტურების შექმნას."
+                },
+                "DALL-E prompt": "Depict the interior of a Gothic cathedral, focusing on ribbed vaults supporting a high ceiling, demonstrating their structural significance."
+            },
+            {
+                "question": "რა როლს თამაშობდა ვიტრაჟები გოტიკურ ტაძრებში?",
+                "answers": [
+                    "A) მეტი ბუნებრივი განათებისთვის",
+                    "B) ბიბლიური ისტორიების მოყოლა",
+                    "C) ტაძრის სითბოს შენარჩუნება",
+                    "D) ორივე A და B"
+                ],
+                "correctAnswer": "D) ორივე A და B",
+                "hints": {
+                    "hint1": "ეს ფანჯრები არ იყო მხოლოდ დეკორატიული.",
+                    "hint2": "ისინი ხშირად ასახავდნენ სცენებს ბიბლიიდან, რომლებიც ემსახურება საგანმანათლებლო მიზანს.",
+                    "hint3": "მათი დიზაინი ტაძრების შიგნით გაძლიერებული სინათლის შემოშვების საშუალებას იძლეოდა. "
+                },
+                "DALL-E prompt": "Create an image of a Gothic cathedral's stained glass window, illuminating the interior with colored light and depicting biblical scenes."
+            }
+        ]
+    },
+    {
+        "lesson": "შავი ჭირი",
+        "era": "მე-14 საუკუნის შუა პერიოდი",
+        "questions": [
+            {
+                "question": "რა იყო შავი ჭირის სოციალური და ეკონომიკური შედეგები შუა საუკუნეების ევროპულ საზოგადოებაზე?",
+                "answers": [
+                    "A) ფეოდალიზმის გაძლიერება",
+                    "B) სწრაფი ტექნოლოგიური მიღწევები",
+                    "C) მნიშვნელოვანი სოციალური და ეკონომიკური რყევები",
+                    "D) ევროპული იმპერიების გაფართოება"
+                ],
+                "correctAnswer": "C) მნიშვნელოვანი სოციალური და ეკონომიკური რყევები",
+                "hints": {
+                    "hint1": "ჭირმა გამოიწვია მოსახლეობის მასიური შემცირება.",
+                    "hint2": "მოსახლეობის შემცირებამ გამოიწვია მუშახელის დეფიციტი და გაიზარდა ხელფასები გლეხებისთვის.",
+                    "hint3": "ამ ყოველივემ ასევე დაასუსტდა ფეოდალიზმი და გამოიწვია სოციალური ცვლილებები"
+                },
+                "DALL-E prompt": "Create an image showcasing a medieval European town during the Black Death, with signs of the plague's impact like deserted streets and people in distress, to convey the social and economic consequences of the pandemic."
+            },
+            {
+                "question": "როგორ გავრცელდა შავი ჭირი მთელ ევროპაში?",
+                "answers": [
+                    "A) დაბინძურებული წყლის წყაროებით",
+                    "B) აირწვეთოვანი გზით",
+                    "C) ვირთხების პარაზიტებით",
+                    "D) პირდაპირი ადამიანური კონტაქტით"
+                ],
+                "correctAnswer": "C) ვირთხების პარაზიტებით",
+                "hints": {
+                    "hint1": "დაავადება ძირითადად არ გავრცელებულა ადამიანის ადამიანთან კონტაქტით.",
+                    "hint2": "საყოფაცხოვრებო მავნებელი მოქმედებდა, როგორც დაავადების გადამტანი.",
+                    "hint3": "დაავადების მატარებელი მავნებელი ჩვეულებრივ გვხვდება გემებზე და ქალაქებში."
+                },
+                "DALL-E prompt": "Visualize a medieval scene showing rats in a city environment, hinting at how the Black Death was transmitted through fleas on these animals."
+            },
+            {
+                "question": "რომელი ჯგუფი დაადანაშაულეს არასწორად შავი ჭირის გამოწვევაში ევროპის ბევრ ქალაქში?",
+                "answers": [
+                    "A) ვაჭრები",
+                    "B) ებრაელი საზოგადოება",
+                    "C) ბერები",
+                    "D) მმართველი კლასი"
+                ],
+                "correctAnswer": "B) ებრაელი საზოგადოება",
+                "hints": {
+                    "hint1": "ეს ჯგუფი ჭირის დროს იდევნებოდა და იყო ძალადობის მსხვერპლი.",
+                    "hint2": "ისინი წარმოადგენდნენ უმცირესობას ევროპის ბევრ ქალაქში და კრიზისის დროს 'განტევების ვაცად' ითვლებოდნენ.",
+                    "hint3": "ამ არასათანადო მოპყრობამ ისინი მიიყვანა მასობრივ გადასახლებებამდე."
+                },
+                "DALL-E prompt": "Create an image depicting a tense scene in a medieval European city where a minority community is being wrongfully blamed, to represent the social unrest and scapegoating during the Black Death."
+            },
+            {
+                "question": "რა იყო ერთ-ერთი მთავარი სამედიცინო პასუხი შავი ჭირის წინააღმდეგ საბრძოლველად?",
+                "answers": [
+                    "A) ანტიბიოტიკების განვითარება",
+                    "B) მცენარეული საშუალებების გამოყენება",
+                    "C) ექიმების მიერ წაწვეტებული ნიღბების ტარება",
+                    "D) იზოლაცია და კარანტინი"
+                ],
+                "correctAnswer": "C) ექიმების მიერ წაწვეტებული ნიღბების ტარება",
+                "hints": {
+                    "hint1": "ეს პასუხი ეფუძნებოდა დაავადებების მიასმის თეორიას.",
+                    "hint2": "წვეტი ხშირად ივსებოდა არომატული ნივთიერებებით.",
+                    "hint3": "ამ ექიმებს ეცვათ გამორჩეული სამოსი, მათ შორის ნიღაბი, ფართოფარფლებიანი ქუდი და გრძელი ქურთუკი"
+                },
+                "DALL-E prompt": "Create an image showing a plague doctor in the traditional outfit with a beak-like mask, wide-brimmed hat, and a long overcoat, illustrating the medical response to the Black Death."
+            },
+            {
+                "question": "რა იყო შავი ჭირის გრძელვადიანი ეფექტი ევროპულ საზოგადოებაზე?",
+                "answers": [
+                    "A) რელიგიური ღვთისმოსაობის გაზრდა",
+                    "B) ხელოვნებისა და კულტურის უარყოფა",
+                    "C) საშუალო კლასის აღზევება",
+                    "D) ფეოდალური სისტემის გაძლიერება"
+                ],
+                "correctAnswer": "C) საშუალო კლასის აღზევება",
+                "hints": {
+                    "hint1": "მოსახლეობის შემცირებამ გამოიწვია მუშახელის დეფიციტი.",
+                    "hint2": "ამ ცვლილებამ გამოიწვია მუშების ხელფასების გაზრდა და მათი გაძლიერება.",
+                    "hint3": "ეკონომიკურმა ცვლილებებმა ხელი შეუწყო სოციალური სტრუქტურების ცვლილებას და ფეოდალიზმის დაცემას."
+                },
+                "DALL-E prompt": "Depict a scene showing the emergence of a more prosperous middle class in a post-plague European town, with signs of increasing trade and commerce."
+            }
+        ]
+    }
+]

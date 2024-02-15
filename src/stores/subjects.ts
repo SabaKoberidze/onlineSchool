@@ -9,17 +9,17 @@ export const subjectStore = defineStore("subjects", {
         Mathematics: {
             title: 'მათემატიკა',
             headers: {
-                header1: ['bomba', 'domba', 'gomba'],
-                header2: ['jaba', 'soza', 'zuro'],
-                header3: ['gega', 'geno', 'guga']
+            }
+        },    
+        History: {
+            title: 'ისტორია',
+            headers: {
+                'შუასაუკუნეები': ['ვიკინგების ექსპედიცია', 'ჯვაროსნული ლაშქრობები', 'გოთიკური არქითექტურა', 'შავი ჭირი'],
             }
         },    
         Physics : {
             title: 'ფიზიკა',
         },
-        History: {
-            title: 'ისტორია',
-        },    
         Geography: {
             title: 'გეოგრაფია',
         },
