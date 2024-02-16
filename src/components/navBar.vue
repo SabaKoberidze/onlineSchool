@@ -39,7 +39,7 @@ nav{
     justify-content: space-between;
     h1{
         font-size: 35px;
-        background: -webkit-linear-gradient(#eee, #74c3b1);
+        background: -webkit-linear-gradient(#eee, #c4fcff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         cursor: pointer;
