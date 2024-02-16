@@ -4,9 +4,9 @@ axios.defaults.withCredentials = true;
 
 export const logInState = defineStore("user", {
   state: () => ({
-    loginUrl:  "http://localhost:3000/api/users/login",
-    logoutUrl: "http://localhost:3000/api/users/logout",
-    verificationUrl: "http://localhost:3000/api/users/verification",
+    loginUrl:  "",
+    logoutUrl: "",
+    verificationUrl: "",
     isLoggedIn: false,
     isTeacher: false,
     user: null,

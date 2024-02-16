@@ -80,7 +80,6 @@ function getSubject() {
   return parts.slice(-1)[0];
 }
 function openQuestions(subHeader: string){     
-    console.log(isFinished.value)  
     if(!isFinished.value){
         return
     } 
@@ -124,10 +123,8 @@ function pickAnswer(question: any, answer: string){
             correctAnswer.value = false
             pickedAnswer.value = -1
             score.value =  score.value + (1 / (pickedHint.value.length + 1))
-            console.log((1 / (pickedHint.value.length + 1)))
             pickedHint.value = []
             if(currentQuestionIndex.value === quiz.value.questions.length - 1){
-                console.log(selectedHeader.value)
                 isFinished.value = true
                 return
             }
