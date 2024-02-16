@@ -20,7 +20,7 @@
 import {subjectStore} from '../stores/subjects.js'
 import router from '../router';
 const subjects = subjectStore()
-function pickSubject(key: string){
+function pickSubject(key: string){ 
     router.push({ name: 'Subject', params: { id: key } });
 }
 function getImageUrl(image: string): string {
@@ -59,7 +59,7 @@ function getImageUrl(image: string): string {
         height: 600px;
         display: flex;
         align-items: center; 
-        background: linear-gradient(90deg, rgb(173, 188, 199) 0%, rgba(255, 255, 255, 0) 85%);
+        background: linear-gradient(90deg, rgb(205, 219, 228) 0%, rgb(255, 255, 255) 85%);
         @media  (max-width: 600px) {              
             justify-content: center;
         }
@@ -69,7 +69,7 @@ function getImageUrl(image: string): string {
                 animation: hoverCraft 2s ease-in-out infinite alternate;    }
             }
             &:nth-child(2n){
-                background: linear-gradient(-90deg,rgb(173, 188, 199) 0%, rgba(0, 0, 0, 0) 85%);
+                background: linear-gradient(-90deg,rgb(212, 225, 234) 0%,  rgb(223, 223, 223) 85%);
                 display: flex;
                 justify-content: flex-end;
                 .subjectContainers{

@@ -4,17 +4,23 @@ import { defineStore } from "pinia";
 
 export const subjectStore = defineStore("subjects", {
   state: () => ({
-    Search: '',
+    Search: '',    
     subjects: {
-        Mathematics: {
-            title: 'მათემატიკა',
-            headers: {
-            }
-        },    
         History: {
             title: 'ისტორია',
             headers: {
                 'შუასაუკუნეები': ['ვიკინგების ექსპედიცია', 'ჯვაროსნული ლაშქრობები', 'გოთიკური არქითექტურა', 'შავი ჭირი'],
+            }
+        },    
+        Georgian: {
+            title: 'ქართული ენა და ლიტერატურა',
+            headers: {
+                'ლიტერატურა': ['ვეფხისტყაოსანი'],
+            }
+        },
+        Mathematics: {
+            title: 'მათემატიკა',
+            headers: {                
             }
         },    
         Physics : {
@@ -28,9 +34,6 @@ export const subjectStore = defineStore("subjects", {
         },
         Chemistry: {
             title: 'ქიმია',
-        },
-        Georgian: {
-            title: 'ქართული ენა და ლიტერატურა',
         },
         CS: {
             title: 'ინფორმატიკა',

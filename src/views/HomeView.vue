@@ -11,9 +11,7 @@ import subjectContainer from '../components/subjectContainer.vue';
 
 article{
     max-width:100%;
-    height: 100%; 
-    padding-top: 70px;
-   
+    height: 100%;    
 }
 
 </style>

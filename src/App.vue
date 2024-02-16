@@ -16,7 +16,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <navBar msg="miqaByte" v-if="!$route.meta.hideNavbar"/>
+  <navBar msg="Gradient Gurus" v-if="!$route.meta.hideNavbar"/>
   <router-view></router-view>
 </template>
 
